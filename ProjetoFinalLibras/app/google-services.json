@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997427265363",
+    "project_id": "dsdm-6a61a",
+    "storage_bucket": "dsdm-6a61a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997427265363:android:4a11e3a315d57e66d12ba6",
+        "android_client_info": {
+          "package_name": "com.example.projetofinal_libras"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvpoLJy_RSW-LU32mhGsTGzgVJWQG34YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
