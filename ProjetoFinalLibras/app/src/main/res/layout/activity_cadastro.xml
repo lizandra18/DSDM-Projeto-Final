@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/backgroundLibras"
+    android:background="@drawable/background_libras"
     tools:context=".Cadastro">
 
     <androidx.cardview.widget.CardView
@@ -38,19 +38,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/cadastrar_nome"
-                android:background="@drawable/custom_edittext"
-                android:layout_marginTop="25dp"
-                android:padding="8dp"
-                android:hint=" Nome"
-                android:textColor="@color/black"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/cadastrar_email"
                 android:background="@drawable/custom_edittext"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint=" Email"
                 android:textColor="@color/black"/>
@@ -60,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/cadastrar_senha"
                 android:background="@drawable/custom_edittext"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:padding="8dp"
                 android:hint=" Senha"
                 android:textColor="@color/black"/>
@@ -69,18 +59,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Salvar"
-                android:id="@+id/login_button"
+                android:id="@+id/cadastrar_button"
                 android:textSize="18sp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 app:cornerRadius="20dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/redireciona_cadastro"
-                android:text="Já possui conta? Login"
+                android:id="@+id/redireciona_login"
+                android:text="Já possui uma conta? Login"
                 android:textAlignment="center"
                 android:padding="8dp"
+                android:layout_marginTop="10dp"
                 android:textSize="15sp"/>
 
         </LinearLayout>

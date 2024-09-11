@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/backgroundLibras"
+    android:background="@drawable/background_libras"
     tools:context=".Login">
 
     <androidx.cardview.widget.CardView
