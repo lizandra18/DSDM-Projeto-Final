@@ -43,17 +43,19 @@
                 android:layout_marginTop="40dp"
                 android:padding="8dp"
                 android:hint=" Email"
+                android:inputType="textEmailAddress"
                 android:textColor="@color/black"/>
 
             <EditText
+                android:id="@+id/login_senha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/login_senha"
-                android:background="@drawable/custom_edittext"
                 android:layout_marginTop="35dp"
-                android:padding="8dp"
+                android:background="@drawable/custom_edittext"
                 android:hint=" Senha"
-                android:textColor="@color/black"/>
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black" />
 
             <Button
                 android:layout_width="match_parent"
