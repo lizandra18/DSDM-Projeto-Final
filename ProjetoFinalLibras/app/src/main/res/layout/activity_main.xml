@@ -8,6 +8,16 @@
     android:background="@drawable/fundo"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Olá, "
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/conteudos_list"
         android:layout_width="match_parent"

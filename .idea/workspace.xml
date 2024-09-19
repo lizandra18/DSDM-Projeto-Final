@@ -15,6 +15,21 @@
           <theme>@style/Theme.ProjetoFinalLibras</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_fragment1.xml">
+        <config>
+          <theme>@style/Theme.ProjetoFinalLibras</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_fragment2.xml">
+        <config>
+          <theme>@style/Theme.ProjetoFinalLibras</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_fragment3.xml">
+        <config>
+          <theme>@style/Theme.ProjetoFinalLibras</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_login.xml">
         <config>
           <theme>@style/Theme.ProjetoFinalLibras</theme>
@@ -38,25 +53,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6f74e27b-dc24-40de-b021-c915c730ffb2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/Cadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/ConteudoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/ConteudoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/java/com/example/projetofinal_libras/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_cadastro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_cadastro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_conteudo_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_conteudo_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalLibras/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalLibras/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +94,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,6 +141,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\carla\OneDrive\Documentos\GitHub\DSDM-Projeto-Final\ProjetoFinalLibras\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-1249504554">
+      <recent name="com.example.projetofinal_libras" />
     </key>
     <key name="android.template.2077773097">
       <recent name="com.example.projetofinal_libras" />

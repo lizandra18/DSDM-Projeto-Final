@@ -23,10 +23,10 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
 
-    private FirebaseAuth auth;
     private EditText loginEmail, loginSenha;
     private TextView redirecionaCadastro;
     private Button loginButton;
+    FirebaseAuth auth = FirebaseAuth.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
 
-        auth = FirebaseAuth.getInstance();
+
         loginEmail = findViewById(R.id.login_email);
         loginSenha = findViewById(R.id.login_senha);
         loginButton = findViewById(R.id.login_button);
